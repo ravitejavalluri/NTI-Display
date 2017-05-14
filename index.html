@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Schedule Display">
+    <meta name="author" content="Anand Gopalakrishnan">
+
+    <title>Train Schedules</title>
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/departure-board.css" />
+
+</head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <!-- NO HEADER USED -->
+        </header>
+
+
+        <div class="container">
+
+            <!-- Page display board -->
+            <div class="dispboard">
+                <div id="arr-dep-board"></div>
+            </div>
+
+           <!-- Display added schedules -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                        <h3 class="panel-title">Train Schedules</h3>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-bordered schedule-table">
+                        <thead>
+                            <tr class="tr-user-style">
+                                <td>Destination</td>
+                                <td>Frequency</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Central Station</td>
+                            <td>Every 20 mins</td>
+                          </tr>
+                          <tr>
+                            <td>Circular</td>
+                            <td>Every 60 mins</td>
+                          </tr>
+                          <tr>
+                            <td>North Square</td>
+                            <td>Every 12 mins</td>
+                          </tr>
+                          <tr>
+                           <td>West Market</td>
+                           <td>Every 6 mins</td>
+                         </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <!-- NO FOOTER USED -->
+        </footer>
+
+
+        <!-- External -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+        <script src="assets/js/departure-board.js"></script>
+
+        <!-- User defined -->
+        <script src="assets/js/traindisplay.js"></script>
+
+    </body>
+</html>

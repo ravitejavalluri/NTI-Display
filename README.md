@@ -1,2 +1,2 @@
-# NTI-Display
-NTI Displays all the train time frequencies
+# Train-Arrival-Departure-Display
+Web application using HTML/CSS/Javascript. Also using other frameworks.
