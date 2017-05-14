@@ -1,2 +1,2 @@
 # NTI-Display
-NTI Displays all tghe train time frequencies
+NTI Displays all the train time frequencies
